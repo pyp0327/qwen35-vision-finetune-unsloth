@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Unsloth runtime cache
+unsloth_compiled_cache/
+
+# Training outputs / checkpoints
+output_qwen35_vision_lora/
+checkpoint-*/
+runs/
+logs/
+
+# Model weights and large binaries
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+# Local dataset files (keep template only)
+data/images/
+data/*.parquet
+data/*.arrow
+
+# Hugging Face / tooling cache
+.cache/
+.huggingface/
+
+# IDE files
+.vscode/
+.idea/
