@@ -28,6 +28,7 @@ logs/
 
 # Local dataset files (keep template only)
 data/images/
+data/images-2/
 data/*.parquet
 data/*.arrow
 
